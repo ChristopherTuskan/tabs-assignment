@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+.tabClicked {
+  background-color: black;
+  color: white;
+  width: 60px;
+  height: 40px;
+  /* animation-name: smoothClicked;
+  animation-duration: 2s;
+  animation-fill-mode: forward; */
+}
+
+.tabNotClicked {
+  background-color: white;
+  color: black;
+  width: 60px;
+  height: 40px;
+  /* animation-name: smoothClicked;
+  animation-duration: 2s;
+  animation-fill-mode: backward; */
+}
+
+.display {
+  width: 200px;
+  border: 2px solid black;
+  margin: auto;
+  padding: 10px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,11 +55,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* @keyframes smoothclick {
+  from {background-color: black;}
+  to {background-color: white;}
+} */
